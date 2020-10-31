@@ -21,7 +21,7 @@ const Resume = () => {
                 <div className="style justify-content-md-center ml-5 mt-t-5 mb-5">
                     <div style={{ display: "flex" }}>
                         <div>
-                            <h1>Jameela Farid Ahammed</h1>
+                            <h1 style={{color:"white"}}>Jameela Farid Ahammed</h1>
                         </div>
                         <div style={{ marginLeft: "300px" }} >
                             <p>Front-end web developer</p>
