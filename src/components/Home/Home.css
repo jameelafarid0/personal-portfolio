@@ -3,6 +3,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300&family=Playfair+Display&display=swap');
 
+
+.body{ 
+    background: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.5)), url('https://i.imgur.com/UKyVFHZ.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: #000;
+    color: #000;
+    
+    height: 100vh;
+    
+}
 .imgMe{
     border-radius: 50%;
     border: 1px solid gray;
@@ -14,6 +27,8 @@
 .font{
     font-family: 'Playfair Display', serif;
     font-size: 50px;
+    color: white;
+    margin-top: 70px;
 }
 .text{
     text-align: center;

@@ -12,13 +12,13 @@ body {
     position: relative;
     justify-content: space-between;
     align-items: center;
-    background-color: #192841;
     color: white;
 }
 
 .brand-img {
     width: 50px;
     margin-left: 25px;
+    margin-top: 10px ;
     
 }
 
@@ -40,12 +40,17 @@ body {
     display: block;
     text-decoration: none;
     color: white;
-    padding: 10px;
-    font-size: 25px;
+    padding: 3px 10px 3px 10px;
+    margin-left: 18px ;
+    margin-top: 15px;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
 }
 
 .navbar-links li a:hover {
     color: #75a7ff;
+    border: 1px solid #75a7ff ;
 }
 
 .toggle-button {
@@ -102,6 +107,7 @@ body {
 .marginLine{
     margin-top: 15px;
     margin-right: 10px;
+    margin-left: 15px;
 }
 
 .font-size{

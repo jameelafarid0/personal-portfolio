@@ -9,7 +9,7 @@ import { Spring } from 'react-spring/renderprops';
 
 const Resume = () => {
     return (
-        <div>
+        <div className="body5">
             <Header></Header>
             <Spring
                 from={{ opacity: 0, marginTop: -800 }}
@@ -27,7 +27,7 @@ const Resume = () => {
                             <p>Front-end web developer</p>
                             <a className="margin" width="200px" href="https://github.com/jameelafarid0"><FontAwesomeIcon className="fab" icon={faGithub} /> </a>
                             <a className="margin" href="https://www.linkedin.com/in/jameela-farid-ahammmed-968aaa1b1/"><FontAwesomeIcon className="fab" icon={faLinkedin} /> </a>
-                            <a className="margin" href="jameelafarid9@gmail.com"><FontAwesomeIcon className="fab" icon={faEnvelope} /> </a>
+                            <a className="margin" href="mailto:jameelafarid9@gmail.com"><FontAwesomeIcon className="fab" icon={faEnvelope} /> </a>
                         </div>
                     </div>
                     <br />

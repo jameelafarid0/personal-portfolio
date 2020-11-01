@@ -2,6 +2,7 @@ import React from 'react';
 import { Navbar } from 'react-bootstrap';
 import emailjs from 'emailjs-com'
 import Header from '../Header/Header';
+import './Contact.css'
 
 const Contact = () => {
     const sendEmail = e => {
@@ -16,13 +17,13 @@ const Contact = () => {
       e.target.reset();
     }
     return (
-        <div>
+        <div className="body6">
             <Header></Header>
             
             <div className="container">
             <form onSubmit={sendEmail}  >
 
-            <h1 style={{color:" #192841", textAlign:"center", margin:"20px 0px 20px 0px"}} >Get In Touch</h1>
+            <h1 style={{color:" white", textAlign:"center", margin:"20px 0px 20px 0px"}} >Get In Touch</h1>
                    
                     <div className="row " style={{marginLeft:"110px"}} >
                         
